@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:descendantFocusability="blocksDescendants"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textIIId"
+        android:visibility="gone"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textlong"
+        android:visibility="gone"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textlate"
+        android:visibility="gone"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+          android:layout_width="220dp"
+          android:layout_height="wrap_content"
+          android:id="@+id/TextPizza"
+          android:textColor="#f8faf8"
+           />
+      <TextView
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TextPizza"
+            android:textColor="#e7f2e7"
+            android:layout_marginTop="10dp"
+            android:id="@+id/AdressPizzaHut"
+
+            />
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="40dp"
+            android:id="@+id/imgmap"
+            android:onClick="btnmap"
+            android:layout_toRightOf="@+id/TextPizza"
+            android:background="@drawable/blueeeeeeee"
+            />
+    </RelativeLayout>
+</RelativeLayout>
